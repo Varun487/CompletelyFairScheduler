@@ -16,7 +16,6 @@ Then run the generated `test` file and follow the instructions for the simulatio
 An example: 
 
 
-`
 $ make
 cc    -c -o DS_main.o DS_main.c
 cc    -c -o DS_def.o DS_def.c
@@ -33,13 +32,12 @@ Enter time for task to be completed: 1200
 1200
 Enter nice value for task: 1
 1
-`
 
 
 Similarly, you enter the other tasks.
-
 The output displays each CPU timer interrupt and the status of the tree until all tasks are completed, this is how the last timer interrupt looks:
-`
+
+
 -------------------TIMER INTERRUPT--------------------
 Before insert:
 
@@ -51,14 +49,9 @@ time slice computed: 4000
 Ran task: third_task, for 4000 time
 Updated runtime in task
 Upadated complete time in task: -3900
-
 minVruntime->data: 8100
 8100:1
 Displaying from end of restructure.
-
-
 deleted task with minVruntime from tree
 
-
 completed All tasks.
-`
