@@ -18,52 +18,23 @@ An example:
 
 `
 $ make
-
-
 cc    -c -o DS_main.o DS_main.c
-
-
 cc    -c -o DS_def.o DS_def.c
-
-
 gcc -o test DS_main.o DS_def.o
 
-
 $ ./test
-
-
 inorder:
-
-
 Enter the number of tasks you're going to enter: 3
-
-
-
 ---------------- NEW TASK ENTRY ------------------
-
-
 Enter virual runtime of new task: 1200
-
-
 Enter the name of the task you want to create: first_task
-
-
 first_task
-
-
 Enter time for task to be completed: 1200
-
-
 1200
-
-
 Enter nice value for task: 1
-
-
 1
-
-
 `
+
 
 Similarly, you enter the other tasks.
 
